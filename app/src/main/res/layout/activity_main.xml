@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/background"
+        android:text="Enregistrer produit cosmetique"
+        android:textColor="#FFF"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:hint="Enter name"
+
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:id="@+id/type"
+        android:textSize="20dp"
+        android:hint="Enter type" />
+
+    <EditText
+        android:id="@+id/ref"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:hint="Enter ref"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/enregistrer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:text="inserer produit"
+        android:onClick="onClick"
+        android:textColor="#FFF"
+        android:textSize="25dp" />
+
+
+
+</RelativeLayout>
